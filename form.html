@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="Assets/styles.css">
+    <link rel="stylesheet" href="Assets/nav.css">
+</head>
+<body>
+    <header><h3>submit details</h3></header>
+    <nav><ul><li><a href="blog.html" target="_blank">home</a></li>
+        <li><a href="form.html" target="_blank">form</a></li>
+        <li><a href="media.html" target="_blank">media</a></li>
+        <li><a href="table.html" target="_blank">table</a></li></ul></nav>
+    <form>
+        <label for="name">
+            enter name :
+            <input type="name" placeholder="name"> 
+        </label>
+        <label for="email">
+            enter mail :
+            <input type="email" name="" id="mail" placeholder="email"></label>
+        <label for="phone">
+            enter phone:
+            <input type="phone" placeholder="phone">
+        </label>
+        <fieldset>
+            <legend>select the worst char</legend>
+            <label for="xiao"><input type="radio" name="worst" id="xiao">xiao</label>
+            <label for="wanderer"><input type="radio" name="worst" id="wanderer">wanderer</label>
+            <label for="childe"><input type="radio" name="worst" id="childe">childe</label>
+        </fieldset>
+        <fieldset>
+            <legend>select the best char</legend>
+            <label for="raiden"><input type="checkbox" name="best" id="raiden">raiden</label>
+            <label for="ei"><input type="checkbox" name="best" id="ei">ei</label>
+            <label for="baal"><input type="checkbox" name="best" id="ball">baal</label>
+        </fieldset> 
+        <fieldset>
+            <legend>say something bad about short bastards</legend>
+            <textarea name="" id="" placeholder="write something" cols="100" rows="6"></textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
